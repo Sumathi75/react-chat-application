@@ -23,7 +23,7 @@ export default function Chatbox() {
         if (newName) {
             setConversations([...conversations, { name: newName, lastMessage: "No messages yet", timestamp: "" }]);
         }
-    };//
+    };
 
     return (
         <div className="chat-app">
